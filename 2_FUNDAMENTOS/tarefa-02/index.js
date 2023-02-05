@@ -13,7 +13,8 @@ inquirer.prompt([{
         throw new Error(chalk.bgRed("Os campos são obrigatórios"))
     }
     else{
-        console.log(chalk.bgYellow.black(`Seu nome é ${resposta.nome} e sua idade é ${resposta.idade} anos`))
+        console.log(chalk.bgGreen.black(`Seu nome é ${resposta.nome} e sua idade é ${resposta.idade} anos`))
     }
   
 })
+
