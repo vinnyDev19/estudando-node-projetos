@@ -1,0 +1,64 @@
+
+input:focus{
+    outline: 0;
+}
+input::placeholder{
+    color: blueviolet;
+}
+input {
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600 ;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border: transparent;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 100%;
+}
+.form-cliente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 25px;
+  
+}
+.container-form{
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+    height: 100vh;
+}
+body{
+    background-image: url(img/endless-constellation.png);
+    background-repeat: repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.enviar{
+    margin: 0 auto;
+}
+.enviar input{
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: .3s ease-in-out;
+}
+.enviar input:hover{
+    background-color: #f5f5f5;
+    color: black;
+    transform: scale(1.05);
+    border: transparent;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}

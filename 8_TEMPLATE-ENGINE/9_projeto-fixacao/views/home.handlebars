@@ -1,0 +1,10 @@
+<div class="flex">
+{{#each produtos}}
+        <div class="container-card">
+            <div><h1>{{this.title}}</h1></div>
+            <div><p>{{this.body}}</p></div>
+            <div><span>{{this.price}}</span></div>
+            <a href="/produto/{{this.id}}">Saiba mais</a>
+        </div>    
+{{/each}}
+</div>
