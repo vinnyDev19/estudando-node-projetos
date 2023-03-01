@@ -1,0 +1,23 @@
+<h1>Usuários cadastrados</h1>
+<section>
+    <div class="container">
+        <div class="flex">
+{{#each users}}
+        <div class="container-card">
+    <h2>{{this.name}}</h2>
+    <p>{{this.occupation}}</p>
+    {{#if this.newsletter}}
+    <p>Receber</p>
+    {{else}}
+    <p>Não Receber</p>
+    {{/if}}
+    <div class="actions">
+        <a class="visualizar" href="/users/{{this.id}}">Visualizar</a>
+        <a class="remover" href="/remove/user/{{this.id}}">Remover</a>
+        <a class="editar" href="/edit/user/{{this.id}}">Editar</a>
+        </div>
+     </div>
+{{/each}}
+        </div>
+    </div>
+</section>

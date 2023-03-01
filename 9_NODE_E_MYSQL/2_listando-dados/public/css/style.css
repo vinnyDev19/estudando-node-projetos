@@ -1,0 +1,44 @@
+input,label {
+    display: block;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    margin: 10px auto;
+    text-align: center;
+}
+.form-control{
+    padding: 15px 0;
+    width: 400px;
+    border: 1px solid black;
+}
+body{
+    background-color:#f5f5f5;
+}
+.books-container{
+    display: flex;
+    flex-direction: column;
+}
+.books-container span{
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-left: 10px;
+    line-height: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    border-bottom: 1px solid #555;
+}
+a{
+    padding: 20px 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #555;
+    width: fit-content;
+    color: #fff;
+    display: block;
+    margin: 10px 0;
+    transition: .3s ease-in-out;
+    font-size: 1.4rem;
+}
+a:hover{
+    transform: scale(1.04);
+}

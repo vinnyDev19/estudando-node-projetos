@@ -1,0 +1,114 @@
+.cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+body{
+    margin: 0;
+}
+label{
+    display: block;
+}
+.form-checkbox{
+    display: flex;
+    align-items: center;
+}
+.form-checkbox input{
+    margin-right: 10px;
+    width: 15px !important;
+}
+.form-control{
+    margin: 15px 0;
+    width: 600px;
+}
+.form-control input{
+    padding: 10px 6px;
+    font-size: 1.1rem;
+    width: 100%;
+}
+h1{
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.newsletter{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+input[type="submit"]{
+    padding: 10px 20px;
+}
+label{
+    font-size: 1.4rem;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.container-card{
+    border: 2px solid #d3d3d3;
+    padding: 15px 15px;
+    flex: 1 1 25%;
+    border-radius: 5px;
+    display: block;
+
+}
+p{
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.visualizar{
+    padding: 10px 16px;
+    border: 2px solid #d3d3d3;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #6b6b6b;
+    font-weight: 600;
+        transition: .3s ease-in-out;
+
+}
+.remover{
+    padding: 10px 16px;
+    border: 2px solid #d3d3d3;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #6b6b6b;
+    transition: .3s ease-in-out;
+    font-weight: 600;
+
+}
+.remover:hover{
+    background-color: #bf0000;
+    color: white;
+}
+.visualizar:hover{
+    color: white;
+    background-color: blue;
+}
+.editar:hover{
+    color: white;
+    background-color:darkslateblue;
+}
+.editar{
+    padding: 10px 16px;
+    border: 2px solid #d3d3d3;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #6b6b6b;
+    transition: .3s ease-in-out;
+    font-weight: 600;
+}
