@@ -91,6 +91,11 @@ nav {
     color: #7b7b7b;
     padding: 0 10px;
 }
+.title.done{
+    color: green;
+    text-decoration: line-through;
+}
+
 .action{
     display: flex;
     justify-content: space-evenly;

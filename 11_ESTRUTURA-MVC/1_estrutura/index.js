@@ -14,7 +14,7 @@ app.use(express.static('public'))
 app.use('/tasks',taskRoutes)
 
 conn
-.sync()
+.sync({force:true})
 .then(()=>{
     app.listen(3000)
 })
